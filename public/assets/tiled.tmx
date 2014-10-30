@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="Coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Background" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBvFo3gUj+IhgAG1jiMp
+  </data>
+ </layer>
+ <layer name="Scenery" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzFkjEKACEQA61OK8/K8/8vNU3amJWFG5guZCFsKf/ywAqbkVE2M0s6fOEQd5lRDjNLJvzgEneZUS4ze8LdNZPIrplEdiWR33Nw+7I3cvtuNlJk920aUgjv
+  </data>
+ </layer>
+ <layer name="Plants" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgkGfADzQIyONTq06mObQEuPyrRqZ5g8VfxABCcU0MUCeshGp2YwtbYsIb2Y3U8DMlgNx0NdjsoDUgpqwAAE9pAsI=
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKIzZgZiTgb6A+5Re0ftHbWXKvYKArEQnbEwEAMABwUC+Q==
+  </data>
+ </layer>
+ <objectgroup name="Money">
+  <object gid="49" x="160" y="128"/>
+  <object gid="49" x="576" y="240"/>
+  <object gid="49" x="384" y="160"/>
+  <object gid="49" x="544" y="79"/>
+  <object gid="49" x="706" y="255"/>
+ </objectgroup>
+</map>
